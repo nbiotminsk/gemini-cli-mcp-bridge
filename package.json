@@ -1,0 +1,20 @@
+{
+  "name": "custom-gemini-mcp-server",
+  "version": "1.0.0",
+  "description": "Кастомный MCP сервер для Ultimate AI Gemini провайдера",
+  "main": "custom-gemini-mcp-server.js",
+  "scripts": {
+    "start": "node custom-gemini-mcp-server.js",
+    "test": "echo \"Для тестирования используйте MCP клиент\""
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.3",
+    "axios": "^1.6.8"
+  },
+  "keywords": ["mcp", "gemini", "ai", "ultimate-ai"],
+  "author": "User",
+  "license": "MIT",
+  "bin": {
+    "custom-gemini-mcp": "./custom-gemini-mcp-server.js"
+  }
+}

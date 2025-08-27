@@ -1,0 +1,14 @@
+{
+  "selectedAuthType": "oauth-personal",
+  "mcpServers": {
+    "gpt5-mcp": {
+      "command": "node",
+      "args": ["C:\\Users\\Admin\\Desktop\\gemini-cli-mcp-bridge\\custom-gemini-mcp-server.js"],
+      "env": {
+        "ULTIMATE_AI_API_KEY": "sk-",
+        "DEFAULT_MODEL": "gpt-5-chat",
+        "API_BASE_URL": "https://smart.ultimateai.org/v1"
+      }
+    }
+  }
+}
